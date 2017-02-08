@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 
 public class FragmentName extends Fragment {
 
+    FragmentSemester fragmentSemester = new FragmentSemester();
+
 
 
     @Nullable
