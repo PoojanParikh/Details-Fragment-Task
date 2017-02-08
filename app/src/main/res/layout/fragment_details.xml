@@ -39,7 +39,8 @@
             android:layout_height="wrap_content"
             android:text="Go Back"
             android:layout_gravity="center"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:id="@+id/detail_button"/>
 
     </LinearLayout>
 

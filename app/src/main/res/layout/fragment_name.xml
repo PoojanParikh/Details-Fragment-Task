@@ -27,7 +27,8 @@
         android:layout_height="wrap_content"
         android:text="Go to next page"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/name_button"/>
 
     </LinearLayout>
 

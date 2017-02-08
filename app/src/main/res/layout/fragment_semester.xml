@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Semester"
-            android:id="@+id/edit_text_name"/>
+            android:id="@+id/edit_text_semester"/>
 
     </LinearLayout>
 
@@ -27,7 +27,8 @@
             android:layout_height="wrap_content"
             android:text="Go to next page"
             android:layout_gravity="center"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:id="@+id/semester_button"/>
 
     </LinearLayout>
 
