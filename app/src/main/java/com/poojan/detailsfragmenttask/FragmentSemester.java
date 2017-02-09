@@ -45,7 +45,8 @@ public class FragmentSemester extends Fragment {
                 FragmentManager fragmentManagerSemester = getFragmentManager();
                 FragmentTransaction fragmentTransactionSemester = fragmentManagerSemester.beginTransaction();
                 fragmentTransactionSemester.replace(R.id.main_layout,fragmentDetails);
-
+                semesterEditText.setText("");
+                fragmentTransactionSemester.addToBackStack("");
                 fragmentTransactionSemester.commit();
             }
         });
